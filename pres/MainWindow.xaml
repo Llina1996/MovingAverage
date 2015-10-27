@@ -1,0 +1,18 @@
+﻿<Window x:Class="pres.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        xmlns:local="clr-namespace:pres"
+        Title="MainWindow" Height="600" Width="525">
+    <Window.DataContext>
+        <local:MainWindowModel/>
+    </Window.DataContext>
+    <Grid>
+      <oxy:PlotView Model="{Binding DataPlot}"/>
+        <!--<oxy:Plot Title="{Binding Title}" Model="{Binding Model}">
+             <oxy:Plot.Series>
+                <oxy:LineSeries ItemsSource="{Binding Points}"/>
+            </oxy:Plot.Series> 
+        </oxy:Plot>-->
+    </Grid>
+</Window>

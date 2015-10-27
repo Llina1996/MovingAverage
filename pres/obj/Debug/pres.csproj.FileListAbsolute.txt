@@ -1,0 +1,52 @@
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\pres.exe.config
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\pres.exe
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\pres.pdb
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\pres.csprojResolveAssemblyReference.cache
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\MainWindow.baml
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\MainWindow.g.cs
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\App.g.cs
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\pres_MarkupCompile.cache
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\pres.g.resources
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\pres.Properties.Resources.resources
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\pres.csproj.GenerateResource.Cache
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\pres.exe
+c:\users\евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\pres.pdb
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.dll
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.Silverlight.dll
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.Xps.dll
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlotSL.dll
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.pdb
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.xml
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\bin\Debug\OxyPlot.Xps.xml
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\pres_MarkupCompile.lref
+C:\Users\Евгений\documents\visual studio 2013\Projects\pres\pres\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\pres.exe.config
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\pres.exe
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\pres.pdb
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\pres.exe
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\pres.pdb
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.dll
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.Silverlight.dll
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.Xps.dll
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlotSL.dll
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.pdb
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.xml
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\Алина\Desktop\solution1\pres\bin\Debug\OxyPlot.Xps.xml
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\pres.csprojResolveAssemblyReference.cache
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\MainWindow.g.cs
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\App.g.cs
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\pres_MarkupCompile.cache
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\pres_MarkupCompile.lref
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\MainWindow.baml
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\pres.g.resources
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\pres.Properties.Resources.resources
+C:\Users\Алина\Desktop\solution1\pres\obj\Debug\pres.csproj.GenerateResource.Cache
