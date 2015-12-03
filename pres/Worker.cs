@@ -27,18 +27,15 @@ namespace pres
         public decimal high;
         public decimal volume;
     }
-    class Worker
+    public class Worker
     {
         public byte[] Download(string address)
         {
-            // Download the data to a buffer.
+            
             WebClient client = new WebClient();
 
             Byte[] pageData = client.DownloadData(address);
-            /*
-            string pageHtml = Encoding.ASCII.GetString(pageData);
-            Console.WriteLine(pageHtml);
-            */
+        
             return pageData;
         }
        public struct Average{
@@ -64,10 +61,10 @@ namespace pres
                 Average res = new Average { date = intervals[i].date , valueAverage = c };
                 result.Add(res);
             }
-            for (int i =N-1;i >=0; --i ){
+            for (int i =result.Count-1;i >=0; --i ){
                 
                 if (( i+1)<N) {
-                 Average a= result[i] ;//.va= calculateAveage(result,0,i);
+                 Average a= result[i] ;
                     a.valueAverage=calculateAveage(result,0,i);
                     result[i]=a;
                 }
@@ -99,7 +96,7 @@ namespace pres
                         if (!first)
                             weeksIntervals.Add(weekData);
                         weekData = dayData;
-                        weekData.date.AddDays(-(int)(weekData.date.DayOfWeek));   /// откатить  дату на начало недели (воскресенье)
+                        weekData.date.AddDays(-(int)(weekData.date.DayOfWeek));   /// откат  даты на воскресенье
                         first = false;
                     }
                     else 
@@ -152,7 +149,7 @@ namespace pres
             }
             else
             {
-                // TODO: years
+               
                 return intervals;
             }
         }
@@ -189,10 +186,10 @@ namespace pres
 
         public List<StockIntervalData> GetStockData(TimeFrame timeframe, string stockId, DateTime from, DateTime to)
         {
-            // http://real-chart.finance.yahoo.com/table.csv?s=CB&d=9&e=30&f=2014&g=m&a=8&b=7&c=2013&ignore=.csv
+             http://real-chart.finance.yahoo.com/table.csv?s=CB&d=9&e=30&f=2014&g=m&a=8&b=7&c=2013&ignore=.csv
             string url = "http://real-chart.finance.yahoo.com/table.csv?s=" + stockId
-                + "&d=" + (to.Month - 1) + "&e=" + to.Day + "&f=" + to.Year // date to
-                + "&a=" + (from.Month - 1) + "&b=" + (from.Day) + "&c=" + (from.Year)  //date from
+                + "&d=" + (to.Month - 1) + "&e=" + to.Day + "&f=" + to.Year 
+                + "&a=" + (from.Month - 1) + "&b=" + (from.Day) + "&c=" + (from.Year)  
                 + "&g=d&ignore=.csv";
 
 
