@@ -15,11 +15,13 @@ using System.Windows.Shapes;
 using System.Net;
 using System.Xml;
 
+
 namespace pres
 {
     using OxyPlot;
     using System.ComponentModel;
     using System.Globalization;
+    using System.IO;
 
     public class MainWindowModel
     {
@@ -45,18 +47,22 @@ namespace pres
        public void save()
        {
            XmlDocument c = new XmlDocument();
-           c.Load("С:\\xml_document.xml");
-           XmlElement saveNode = c["save"];
-           if (saveNode != null)
-           {
-               saveNode.SetAttribute("stock_id", StockId);
-               saveNode.SetAttribute("date_from", dateFrom.ToString("yyyy-MM-dd"));
-               saveNode.SetAttribute("date_to", dateTo.ToString("yyyy-MM-dd"));
-               saveNode.SetAttribute("time_frame", timeFrame.ToString());
-              
+           string doc_path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+           string path = String.Concat(doc_path, "\\xml_document.xml");
+          
+               var file = File.Create(path);
+               file.Close();
+               XmlElement rootNode = c.CreateElement("rdf:RDF");
+               c.AppendChild(rootNode);
+               rootNode.SetAttribute("stock_id", StockId);
+                   rootNode.SetAttribute("date_from", dateFrom.ToString("yyyy-MM-dd"));
+                   rootNode.SetAttribute("date_to", dateTo.ToString("yyyy-MM-dd"));
+                   rootNode.SetAttribute("time_frame", timeFrame.ToString());
+                   c.Save(path);
+               
            }
-           c.Save("С:\\xml_document.xml");
-       }
+           
+          
        
        CultureInfo provider1 = CultureInfo.InvariantCulture;
        public void LoadUserPrefs()
@@ -64,9 +70,11 @@ namespace pres
        
            try
            {
+               string doc_path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+               string path = String.Concat(doc_path, "\\xml_document.xml");
                XmlDocument c = new XmlDocument();
-               c.Load("D:\\xml_document.xml");
-               XmlElement saveNode = c["save"];
+               c.Load(path);
+               XmlElement saveNode = c["RDF"];
                StockId=saveNode.GetAttribute("stock_id");
                dateFrom = DateTime.ParseExact( saveNode.GetAttribute("date_from"), "yyyy-MM-dd", provider1);
                dateTo = DateTime.ParseExact(saveNode.GetAttribute("date_to"), "yyyy-MM-dd", provider1);

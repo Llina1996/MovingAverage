@@ -185,9 +185,10 @@ namespace pres
         }
 
         public List<StockIntervalData> GetStockData(TimeFrame timeframe, string stockId, DateTime from, DateTime to)
-        {
-             http://real-chart.finance.yahoo.com/table.csv?s=CB&d=9&e=30&f=2014&g=m&a=8&b=7&c=2013&ignore=.csv
-            string url = "http://real-chart.finance.yahoo.com/table.csv?s=" + stockId
+        { 
+            /*http://ichart.finance.yahoo.com/table.csv?s=CB&d=9&e=30&f=2014&g=m&a=8&b=7&c=2013&ignore=.csv*/
+            
+            string url = "http://ichart.finance.yahoo.com/table.csv?s=" + stockId
                 + "&d=" + (to.Month - 1) + "&e=" + to.Day + "&f=" + to.Year 
                 + "&a=" + (from.Month - 1) + "&b=" + (from.Day) + "&c=" + (from.Year)  
                 + "&g=d&ignore=.csv";
